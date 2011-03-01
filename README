@@ -1,0 +1,14 @@
+intel-ref -- Look up identifiers in intel's instruction reference PDFs
+
+Intent is to map this to a lookup key in Vim so pressing that key launches the
+PDF reader with the instruction up on the screen. Intel made the
+searching/jumping impossible by splitting the instruction set into two PDFs.
+
+Setup:
+
+1. Install the Skim PDF reader
+2. Download Intel's two instruction manuals A-M and N-Z.
+3. Place the PDFs in this directory, call them intelref_am.pdf, intelref_nz.pdf
+
+Usage: intel-ref.py intel-ref.txt <instruction>
+

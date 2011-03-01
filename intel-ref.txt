@@ -1,0 +1,405 @@
+intelref_am.pdf;94;AAA;ASCII Adjust After Addition
+intelref_am.pdf;96;AAD;ASCII Adjust AX Before Division
+intelref_am.pdf;98;AAM;ASCII Adjust AX After Multiply
+intelref_am.pdf;100;AAS;ASCII Adjust AL After Subtraction
+intelref_am.pdf;102;ADC;Add with Carry
+intelref_am.pdf;106;ADD;Add
+intelref_am.pdf;109;ADDPD;Add Packed Double-Precision Floating-Point Values
+intelref_am.pdf;111;ADDPS;Add Packed Single-Precision Floating-Point Values
+intelref_am.pdf;113;ADDSD;Add Scalar Double-Precision Floating-Point Values
+intelref_am.pdf;115;ADDSS;Add Scalar Single-Precision Floating-Point Values
+intelref_am.pdf;117;ADDSUBPD;Packed Double-FP Add/Subtract
+intelref_am.pdf;120;ADDSUBPS;Packed Single-FP Add/Subtract
+intelref_am.pdf;123;AESDEC;Perform One Round of an AES Decryption Flow
+intelref_am.pdf;125;AESDECLAST;Perform Last Round of an AES Decryption Flow
+intelref_am.pdf;127;AESENC;Perform One Round of an AES Encryption Flow
+intelref_am.pdf;129;AESENCLAST;Perform Last Round of an AES Encryption Flow
+intelref_am.pdf;131;AESIMC;Perform the AES InvMixColumn Transformation
+intelref_am.pdf;133;AESKEYGENASSIST;AES Round Key Generation Assist
+intelref_am.pdf;135;AND;Logical AND
+intelref_am.pdf;138;ANDPD;Bitwise Logical AND of Packed Double-Precision Floating-Point Values
+intelref_am.pdf;140;ANDPS;Bitwise Logical AND of Packed Single-Precision Floating-Point Values
+intelref_am.pdf;142;ANDNPD;Bitwise Logical AND NOT of Packed Double-Precision Floating-Point Values
+intelref_am.pdf;144;ANDNPS;Bitwise Logical AND NOT of Packed Single-Precision Floating-Point Values
+intelref_am.pdf;146;ARPL;Adjust RPL Field of Segment Selector
+intelref_am.pdf;149;BLENDPD;Blend Packed Double Precision Floating-Point Values
+intelref_am.pdf;151;BLENDPS;Blend Packed Single Precision Floating-Point Values
+intelref_am.pdf;154;BLENDVPD;Variable Blend Packed Double Precision Floating-Point Values
+intelref_am.pdf;157;BLENDVPS;Variable Blend Packed Single Precision Floating-Point Values
+intelref_am.pdf;160;BOUND;Check Array Index Against Bounds
+intelref_am.pdf;163;VBROADCAST;Load with Broadcast
+intelref_am.pdf;167;BSF;Bit Scan Forward
+intelref_am.pdf;170;BSR;Bit Scan Reverse
+intelref_am.pdf;173;BSWAP;Byte Swap
+intelref_am.pdf;175;BT;Bit Test
+intelref_am.pdf;178;BTC;Bit Test and Complement
+intelref_am.pdf;181;BTR;Bit Test and Reset
+intelref_am.pdf;184;BTS;Bit Test and Set
+intelref_am.pdf;187;CALL;Call Procedure
+intelref_am.pdf;206;CBW/CWDE/CDQE;Convert Byte to Word/Convert Word to Doubleword/Convert Double-word to Quadword
+intelref_am.pdf;208;CLC;Clear Carry Flag
+intelref_am.pdf;209;CLD;Clear Direction Flag
+intelref_am.pdf;210;CLFLUSH;Flush Cache Line
+intelref_am.pdf;212;CLI;Clear Interrupt Flag
+intelref_am.pdf;215;CLTS;Clear Task-Switched Flag in CR0
+intelref_am.pdf;217;CMC;Complement Carry Flag
+intelref_am.pdf;218;CMOVcc;Conditional Move
+intelref_am.pdf;225;CMP;Compare Two Operands
+intelref_am.pdf;228;CMPPD;Compare Packed Double-Precision Floating-Point Values
+intelref_am.pdf;238;CMPPS;Compare Packed Single-Precision Floating-Point Values
+intelref_am.pdf;245;CMPS/CMPSB/CMPSW/CMPSD/CMPSQ;Compare String Operands
+intelref_am.pdf;251;CMPSD;Compare Scalar Double-Precision Floating-Point Values
+intelref_am.pdf;257;CMPSS;Compare Scalar Single-Precision Floating-Point Values
+intelref_am.pdf;263;CMPXCHG;Compare and Exchange
+intelref_am.pdf;266;CMPXCHG8B/CMPXCHG16B;Compare and Exchange Bytes
+intelref_am.pdf;269;COMISD;Compare Scalar Ordered Double-Precision Floating-Point Values and SetEFLAGS
+intelref_am.pdf;271;COMISS;Compare Scalar Ordered Single-Precision Floating-Point Values and Set EFLAGS
+intelref_am.pdf;273;CPUID;CPU Identification
+intelref_am.pdf;309;CRC32;Accumulate CRC32 Value
+intelref_am.pdf;313;CVTDQ2PD;Convert Packed Dword Integers to Packed Double-Precision FP Values
+intelref_am.pdf;316;CVTDQ2PS;Convert Packed Dword Integers to Packed Single-Precision FP Values
+intelref_am.pdf;318;CVTPD2DQ;Convert Packed Double-Precision FP Values to Packed Dword Integers
+intelref_am.pdf;321;CVTPD2PI;Convert Packed Double-Precision FP Values to Packed Dword Integers
+intelref_am.pdf;324;CVTPD2PS;Convert Packed Double-Precision FP Values to Packed Single-Precision FP Values
+intelref_am.pdf;327;CVTPI2PD;Convert Packed Dword Integers to Packed Double-Precision FP Values
+intelref_am.pdf;330;CVTPI2PS;Convert Packed Dword Integers to Packed Single-Precision FP Values
+intelref_am.pdf;333;CVTPS2DQ;Convert Packed Single-Precision FP Values to Packed Dword Integers
+intelref_am.pdf;335;CVTPS2PD;Convert Packed Single-Precision FP Values to Packed Double-Precision FPValues
+intelref_am.pdf;338;CVTPS2PI;Convert Packed Single-Precision FP Values to Packed Dword Integers
+intelref_am.pdf;341;CVTSD2SI;Convert Scalar Double-Precision FP Value to Integer
+intelref_am.pdf;343;CVTSD2SS;Convert Scalar Double-Precision FP Value to Scalar Single-Precision FP Val-ue
+intelref_am.pdf;345;CVTSI2SD;Convert Dword Integer to Scalar Double-Precision FP Value
+intelref_am.pdf;347;CVTSI2SS;Convert Dword Integer to Scalar Single-Precision FP Value
+intelref_am.pdf;349;CVTSS2SD;Convert Scalar Single-Precision FP Value to Scalar Double-Precision FP Val-ue
+intelref_am.pdf;351;CVTSS2SI;Convert Scalar Single-Precision FP Value to Dword Integer
+intelref_am.pdf;353;CVTTPD2DQ;Convert with Truncation Packed Double-Precision FP Values to PackedDword Integers
+intelref_am.pdf;356;CVTTPD2PI;Convert with Truncation Packed Double-Precision FP Values to Packed Dword Integers
+intelref_am.pdf;359;CVTTPS2DQ;Convert with Truncation Packed Single-Precision FP Values to PackedDword Integers
+intelref_am.pdf;362;CVTTPS2PI;Convert with Truncation Packed Single-Precision FP Values to Packed Dword Integers
+intelref_am.pdf;365;CVTTSD2SI;Convert with Truncation Scalar Double-Precision FP Value to Signed Inte-ger
+intelref_am.pdf;367;CVTTSS2SI;Convert with Truncation Scalar Single-Precision FP Value to Dword Integer
+intelref_am.pdf;369;CWD/CDQ/CQO;Convert Word to Doubleword/Convert Doubleword to Quadword
+intelref_am.pdf;371;DAA;Decimal Adjust AL after Addition
+intelref_am.pdf;373;DAS;Decimal Adjust AL after Subtraction
+intelref_am.pdf;375;DEC;Decrement by 1
+intelref_am.pdf;378;DIV;Unsigned Divide
+intelref_am.pdf;382;DIVPD;Divide Packed Double-Precision Floating-Point Values
+intelref_am.pdf;384;DIVPS;Divide Packed Single-Precision Floating-Point Values
+intelref_am.pdf;386;DIVSD;Divide Scalar Double-Precision Floating-Point Values
+intelref_am.pdf;388;DIVSS;Divide Scalar Single-Precision Floating-Point Values
+intelref_am.pdf;390;DPPD;Dot Product of Packed Double Precision Floating-Point Values
+intelref_am.pdf;393;DPPS;Dot Product of Packed Single Precision Floating-Point Values
+intelref_am.pdf;396;EMMS;Empty MMX Technology State
+intelref_am.pdf;398;ENTER;Make Stack Frame for Procedure Parameters
+intelref_am.pdf;402;VEXTRACTF128;Extract Packed Floating-Point Values
+intelref_am.pdf;404;EXTRACTPS;Extract Packed Single Precision Floating-Point Value
+intelref_am.pdf;406;F2XM1;Compute 2x-1
+intelref_am.pdf;408;FABS;Absolute Value
+intelref_am.pdf;410;FADD/FADDP/FIADD;Add
+intelref_am.pdf;414;FBLD;Load Binary Coded Decimal
+intelref_am.pdf;416;FBSTP;Store BCD Integer and Pop
+intelref_am.pdf;419;FCHS;Change Sign
+intelref_am.pdf;421;FCLEX/FNCLEX;Clear Exceptions
+intelref_am.pdf;423;FCMOVcc;Floating-Point Conditional Move
+intelref_am.pdf;429;FCOMI/FCOMIP/FUCOMI/FUCOMIP;Compare Floating Point Values and Set EFLAGS
+intelref_am.pdf;432;FCOS;Cosine
+intelref_am.pdf;434;FDECSTP;Decrement Stack-Top Pointer
+intelref_am.pdf;436;FDIV/FDIVP/FIDIV;Divide
+intelref_am.pdf;440;FDIVR/FDIVRP/FIDIVR;Reverse Divide
+intelref_am.pdf;444;FFREE;Free Floating-Point Register
+intelref_am.pdf;445;FICOM/FICOMP;Compare Integer
+intelref_am.pdf;448;FILD;Load Integer
+intelref_am.pdf;450;FINCSTP;Increment Stack-Top Pointer
+intelref_am.pdf;452;FINIT/FNINIT;Initialize Floating-Point Unit
+intelref_am.pdf;454;FIST/FISTP;Store Integer
+intelref_am.pdf;458;FISTTP;Store Integer with Truncation
+intelref_am.pdf;461;FLD;Load Floating Point Value
+intelref_am.pdf;464;FLD1/FLDL2T/FLDL2E/FLDPI/FLDLG2/FLDLN2/FLDZ;Load Constant
+intelref_am.pdf;466;FLDCW;Load x87 FPU Control Word
+intelref_am.pdf;468;FLDENV;Load x87 FPU Environment
+intelref_am.pdf;471;FMUL/FMULP/FIMUL;Multiply
+intelref_am.pdf;475;FNOP;No Operation
+intelref_am.pdf;476;FPATAN;Partial Arctangent
+intelref_am.pdf;479;FPREM;Partial Remainder
+intelref_am.pdf;482;FPREM1;Partial Remainder
+intelref_am.pdf;485;FPTAN;Partial Tangent
+intelref_am.pdf;488;FRNDINT;Round to Integer
+intelref_am.pdf;490;FRSTOR;Restore x87 FPU State
+intelref_am.pdf;493;FSAVE/FNSAVE;Store x87 FPU State
+intelref_am.pdf;497;FSCALE;Scale
+intelref_am.pdf;499;FSIN;Sine
+intelref_am.pdf;501;FSINCOS;Sine and Cosine
+intelref_am.pdf;504;FSQRT;Square Root
+intelref_am.pdf;506;FST/FSTP;Store Floating Point Value
+intelref_am.pdf;509;FSTCW/FNSTCW;Store x87 FPU Control Word
+intelref_am.pdf;512;FSTENV/FNSTENV;Store x87 FPU Environment
+intelref_am.pdf;515;FSTSW/FNSTSW;Store x87 FPU Status Word
+intelref_am.pdf;518;FSUB/FSUBP/FISUB;Subtract
+intelref_am.pdf;522;FSUBR/FSUBRP/FISUBR;Reverse Subtract
+intelref_am.pdf;526;FTST;TEST
+intelref_am.pdf;528;FUCOM/FUCOMP/FUCOMPP;Unordered Compare Floating Point Values
+intelref_am.pdf;531;FXAM;Examine ModR/M
+intelref_am.pdf;533;FXCH;Exchange Register Contents
+intelref_am.pdf;535;FXRSTOR;Restore x87 FPU, MMX , XMM, and MXCSR State
+intelref_am.pdf;539;FXSAVE;Save x87 FPU, MMX Technology, and SSE State
+intelref_am.pdf;549;FXTRACT;Extract Exponent and Significand
+intelref_am.pdf;551;FYL2X;Compute y * log2x
+intelref_am.pdf;553;FYL2XP1;Compute y * log2(x +1)
+intelref_am.pdf;555;HADDPD;Packed Double-FP Horizontal Add
+intelref_am.pdf;558;HADDPS;Packed Single-FP Horizontal Add
+intelref_am.pdf;562;HLT;Halt
+intelref_am.pdf;564;HSUBPD;Packed Double-FP Horizontal Subtract
+intelref_am.pdf;567;HSUBPS;Packed Single-FP Horizontal Subtract
+intelref_am.pdf;571;IDIV;Signed Divide
+intelref_am.pdf;575;IMUL;Signed Multiply
+intelref_am.pdf;580;IN;Input from Port
+intelref_am.pdf;582;INC;Increment by 1
+intelref_am.pdf;585;INS/INSB/INSW/INSD;Input from Port to String
+intelref_am.pdf;590;VINSERTF128;Insert Packed Floating-Point Values
+intelref_am.pdf;592;INSERTPS;Insert Packed Single Precision Floating-Point Value
+intelref_am.pdf;596;INT/INTO;Call to Interrupt Procedure
+intelref_am.pdf;612;INVD;Invalidate Internal Caches
+intelref_am.pdf;614;INVLPG;Invalidate TLB Entry
+intelref_am.pdf;616;IRET/IRETD;Interrupt Return
+intelref_am.pdf;627;Jcc;Jump if Condition Is Met
+intelref_am.pdf;635;JMP;Jump
+intelref_am.pdf;646;LAHF;Load Status Flags into AH Register
+intelref_am.pdf;648;LAR;Load Access Rights Byte
+intelref_am.pdf;652;LDDQU;Load Unaligned Integer 128 Bits
+intelref_am.pdf;654;LDMXCSR;Load MXCSR Register
+intelref_am.pdf;656;LDS/LES/LFS/LGS/LSS;Load Far Pointer
+intelref_am.pdf;662;LEA;Load Effective Address
+intelref_am.pdf;665;LEAVE;High Level Procedure Exit
+intelref_am.pdf;667;LFENCE;Load Fence
+intelref_am.pdf;669;LGDT/LIDT;Load Global/Interrupt Descriptor Table Register
+intelref_am.pdf;672;LLDT;Load Local Descriptor Table Register
+intelref_am.pdf;675;LMSW;Load Machine Status Word
+intelref_am.pdf;677;LOCK;Assert LOCK# Signal Prefix
+intelref_am.pdf;679;LODS/LODSB/LODSW/LODSD/LODSQ;Load String
+intelref_am.pdf;683;LOOP/LOOPcc;Loop According to ECX Counter
+intelref_am.pdf;686;LSL;Load Segment Limit
+intelref_am.pdf;690;LTR;Load Task Register
+intelref_am.pdf;693;MASKMOVDQU;Store Selected Bytes of Double Quadword
+intelref_am.pdf;695;VMASKMOV;Conditional SIMD Packed Loads and Stores
+intelref_am.pdf;699;MASKMOVQ;Store Selected Bytes of Quadword
+intelref_am.pdf;702;MAXPD;Return Maximum Packed Double-Precision Floating-Point Values
+intelref_am.pdf;705;MAXPS;Return Maximum Packed Single-Precision Floating-Point Values
+intelref_am.pdf;708;MAXSD;Return Maximum Scalar Double-Precision Floating-Point Value
+intelref_am.pdf;710;MAXSS;Return Maximum Scalar Single-Precision Floating-Point Value
+intelref_am.pdf;712;MFENCE;Memory Fence
+intelref_am.pdf;714;MINPD;Return Minimum Packed Double-Precision Floating-Point Values
+intelref_am.pdf;717;MINPS;Return Minimum Packed Single-Precision Floating-Point Values
+intelref_am.pdf;720;MINSD;Return Minimum Scalar Double-Precision Floating-Point Value
+intelref_am.pdf;722;MINSS;Return Minimum Scalar Single-Precision Floating-Point Value
+intelref_am.pdf;724;MONITOR;Set Up Monitor Address
+intelref_am.pdf;727;MOV;Move
+intelref_am.pdf;740;MOVAPD;Move Aligned Packed Double-Precision Floating-Point Values
+intelref_am.pdf;743;MOVAPS;Move Aligned Packed Single-Precision Floating-Point Values
+intelref_am.pdf;746;MOVBE;Move Data After Swapping Bytes
+intelref_am.pdf;749;MOVD/MOVQ;Move Doubleword/Move Quadword
+intelref_am.pdf;752;MOVDDUP;Move One Double-FP and Duplicate
+intelref_am.pdf;755;MOVDQA;Move Aligned Double Quadword
+intelref_am.pdf;758;MOVDQU;Move Unaligned Double Quadword
+intelref_am.pdf;761;MOVDQ2Q;Move Quadword from XMM to MMX Technology Register
+intelref_am.pdf;763;MOVHLPS;Move Packed Single-Precision Floating-Point Values High to Low
+intelref_am.pdf;765;MOVHPD;Move High Packed Double-Precision Floating-Point Value
+intelref_am.pdf;767;MOVHPS;Move High Packed Single-Precision Floating-Point Values
+intelref_am.pdf;769;MOVLHPS;Move Packed Single-Precision Floating-Point Values Low to High
+intelref_am.pdf;771;MOVLPD;Move Low Packed Double-Precision Floating-Point Value
+intelref_am.pdf;773;MOVLPS;Move Low Packed Single-Precision Floating-Point Values
+intelref_am.pdf;775;MOVMSKPD;Extract Packed Double-Precision Floating-Point Sign Mask
+intelref_am.pdf;777;MOVMSKPS;Extract Packed Single-Precision Floating-Point Sign Mask
+intelref_am.pdf;780;MOVNTDQA;Load Double Quadword Non-Temporal Aligned Hint
+intelref_am.pdf;783;MOVNTDQ;Store Double Quadword Using Non-Temporal Hint
+intelref_am.pdf;785;MOVNTI;Store Doubleword Using Non-Temporal Hint
+intelref_am.pdf;787;MOVNTPD;Store Packed Double-Precision Floating-Point Values Using Non-TemporalHint
+intelref_am.pdf;789;MOVNTPS;Store Packed Single-Precision Floating-Point Values Using Non-TemporalHint
+intelref_am.pdf;791;MOVNTQ;Store of Quadword Using Non-Temporal Hint
+intelref_am.pdf;794;MOVQ;Move Quadword
+intelref_am.pdf;797;MOVQ2DQ;Move Quadword from MMX Technology to XMM Register
+intelref_am.pdf;799;MOVS/MOVSB/MOVSW/MOVSD/MOVSQ;Move Data from StringtoString
+intelref_am.pdf;804;MOVSD;Move Scalar Double-Precision Floating-Point Value
+intelref_am.pdf;807;MOVSHDUP;Move Packed Single-FP High and Duplicate
+intelref_am.pdf;810;MOVSLDUP;Move Packed Single-FP Low and Duplicate
+intelref_am.pdf;813;MOVSS;Move Scalar Single-Precision Floating-Point Values
+intelref_am.pdf;816;MOVSX/MOVSXD;Move with Sign-Extension
+intelref_am.pdf;819;MOVUPD;Move Unaligned Packed Double-Precision Floating-Point Values
+intelref_am.pdf;822;MOVUPS;Move Unaligned Packed Single-Precision Floating-Point Values
+intelref_am.pdf;825;MOVZX;Move with Zero-Extend
+intelref_am.pdf;827;MPSADBW;Compute Multiple Packed Sums of Absolute Difference
+intelref_am.pdf;832;MUL;Unsigned Multiply
+intelref_am.pdf;835;MULPD;Multiply Packed Double-Precision Floating-Point Values
+intelref_am.pdf;837;MULPS;Multiply Packed Single-Precision Floating-Point Values
+intelref_am.pdf;839;MULSD;Multiply Scalar Double-Precision Floating-Point Values
+intelref_am.pdf;841;MULSS;Multiply Scalar Single-Precision Floating-Point Values
+intelref_am.pdf;843;MWAIT;Monitor Wait
+intelref_nz.pdf;9;NEG;Two's Complement Negation
+intelref_nz.pdf;12;NOP;No Operation
+intelref_nz.pdf;14;NOT;One's Complement Negation
+intelref_nz.pdf;16;OR;Logical Inclusive OR
+intelref_nz.pdf;19;ORPD;Bitwise Logical OR of Double-Precision Floating-Point Values
+intelref_nz.pdf;21;ORPS;Bitwise Logical OR of Single-Precision Floating-Point Values
+intelref_nz.pdf;23;OUT;Output to Port
+intelref_nz.pdf;26;OUTS/OUTSB/OUTSW/OUTSD;Output String to Port
+intelref_nz.pdf;32;PABSB/PABSW/PABSD;Packed Absolute Value
+intelref_nz.pdf;36;PACKSSWB/PACKSSDW;Pack with Signed Saturation
+intelref_nz.pdf;40;PACKUSDW;Pack with Unsigned Saturation
+intelref_nz.pdf;45;PADDB/PADDW/PADDD;Add Packed Integers
+intelref_nz.pdf;49;PADDQ;Add Packed Quadword Integers
+intelref_nz.pdf;51;PADDSB/PADDSW;Add Packed Signed Integers with Signed Saturation
+intelref_nz.pdf;54;PADDUSB/PADDUSW;Add Packed Unsigned Integers with Unsigned Saturation
+intelref_nz.pdf;57;PALIGNR;Packed Align Right
+intelref_nz.pdf;59;PAND;Logical AND
+intelref_nz.pdf;61;PANDN;Logical AND NOT
+intelref_nz.pdf;63;PAUSE;Spin Loop Hint
+intelref_nz.pdf;65;PAVGB/PAVGW;Average Packed Integers
+intelref_nz.pdf;68;PBLENDVB;Variable Blend Packed Bytes
+intelref_nz.pdf;72;PBLENDW;Blend Packed Words
+intelref_nz.pdf;74;PCLMULQDQ;Carry-Less Multiplication Quadword
+intelref_nz.pdf;78;PCMPEQB/PCMPEQW/PCMPEQD;Compare Packed Data for Equal
+intelref_nz.pdf;82;PCMPEQQ;Compare Packed Qword Data for Equal
+intelref_nz.pdf;84;PCMPESTRI;Packed Compare Explicit Length Strings, Return Index
+intelref_nz.pdf;86;PCMPESTRM;Packed Compare Explicit Length Strings, Return Mask
+intelref_nz.pdf;88;PCMPGTB/PCMPGTW/PCMPGTD;Compare Packed Signed Integers for Greater Than
+intelref_nz.pdf;92;PCMPGTQ;Compare Packed Data for Greater Than
+intelref_nz.pdf;94;PCMPISTRI;Packed Compare Implicit Length Strings, Return Index
+intelref_nz.pdf;96;PCMPISTRM;Packed Compare Implicit Length Strings, Return Mask
+intelref_nz.pdf;98;VPERMILPD;Permute Double-Precision Floating-Point Values
+intelref_nz.pdf;106;VPERM2F128;Permute Floating-Point Values
+intelref_nz.pdf;109;PEXTRB/PEXTRD/PEXTRQ;Extract Byte/Dword/Qword
+intelref_nz.pdf;112;PEXTRW;Extract Word
+intelref_nz.pdf;115;PHADDW/PHADDD;Packed Horizontal Add
+intelref_nz.pdf;118;PHADDSW;Packed Horizontal Add and Saturate
+intelref_nz.pdf;120;PHMINPOSUW;Packed Horizontal Word Minimum
+intelref_nz.pdf;122;PHSUBW/PHSUBD;Packed Horizontal Subtract
+intelref_nz.pdf;125;PHSUBSW;Packed Horizontal Subtract and Saturate
+intelref_nz.pdf;127;PINSRB/PINSRD/PINSRQ;Insert Byte/Dword/Qword
+intelref_nz.pdf;130;PINSRW;Insert Word
+intelref_nz.pdf;133;PMADDUBSW;Multiply and Add Packed Signed and Unsigned Bytes
+intelref_nz.pdf;135;PMADDWD;Multiply and Add Packed Integers
+intelref_nz.pdf;138;PMAXSB;Maximum of Packed Signed Byte Integers
+intelref_nz.pdf;141;PMAXSD;Maximum of Packed Signed Dword Integers
+intelref_nz.pdf;143;PMAXSW;Maximum of Packed Signed Word Integers
+intelref_nz.pdf;146;PMAXUB;Maximum of Packed Unsigned Byte Integers
+intelref_nz.pdf;149;PMAXUD;Maximum of Packed Unsigned Dword Integers
+intelref_nz.pdf;151;PMAXUW;Maximum of Packed Word Integers
+intelref_nz.pdf;153;PMINSB;Minimum of Packed Signed Byte Integers
+intelref_nz.pdf;156;PMINSD;Minimum of Packed Dword Integers
+intelref_nz.pdf;158;PMINSW;Minimum of Packed Signed Word Integers
+intelref_nz.pdf;161;PMINUB;Minimum of Packed Unsigned Byte Integers
+intelref_nz.pdf;164;PMINUD;Minimum of Packed Dword Integers
+intelref_nz.pdf;166;PMINUW;Minimum of Packed Word Integers
+intelref_nz.pdf;168;PMOVMSKB;Move Byte Mask
+intelref_nz.pdf;170;PMOVSX;Packed Move with Sign Extend
+intelref_nz.pdf;174;PMOVZX;Packed Move with Zero Extend
+intelref_nz.pdf;178;PMULDQ;Multiply Packed Signed Dword Integers
+intelref_nz.pdf;180;PMULHRSW;Packed Multiply High with Round and Scale
+intelref_nz.pdf;183;PMULHUW;Multiply Packed Unsigned Integers and Store High Result
+intelref_nz.pdf;186;PMULHW;Multiply Packed Signed Integers and Store High Result
+intelref_nz.pdf;189;PMULLD;Multiply Packed Signed Dword Integers and Store Low Result
+intelref_nz.pdf;191;PMULLW;Multiply Packed Signed Integers and Store Low Result
+intelref_nz.pdf;194;PMULUDQ;Multiply Packed Unsigned Doubleword Integers
+intelref_nz.pdf;196;POP;Pop a Value from the Stack
+intelref_nz.pdf;203;POPA/POPAD;Pop All General-Purpose Registers
+intelref_nz.pdf;206;POPCNT;Return the Count of Number of Bits Set to 1
+intelref_nz.pdf;208;POPF/POPFD/POPFQ;Pop Stack into EFLAGS Register
+intelref_nz.pdf;212;POR;Bitwise Logical OR
+intelref_nz.pdf;214;PREFETCHh;Prefetch Data Into Caches
+intelref_nz.pdf;217;PSADBW;Compute Sum of Absolute Differences
+intelref_nz.pdf;220;PSHUFB;Packed Shuffle Bytes
+intelref_nz.pdf;223;PSHUFD;Shuffle Packed Doublewords
+intelref_nz.pdf;225;PSHUFHW;Shuffle Packed High Words
+intelref_nz.pdf;227;PSHUFLW;Shuffle Packed Low Words
+intelref_nz.pdf;229;PSHUFW;Shuffle Packed Words
+intelref_nz.pdf;232;PSIGNB/PSIGNW/PSIGND;Packed SIGN
+intelref_nz.pdf;237;PSLLDQ;Shift Double Quadword Left Logical
+intelref_nz.pdf;239;PSLLW/PSLLD/PSLLQ;Shift Packed Data Left Logical
+intelref_nz.pdf;246;PSRAW/PSRAD;Shift Packed Data Right Arithmetic
+intelref_nz.pdf;251;PSRLDQ;Shift Double Quadword Right Logical
+intelref_nz.pdf;253;PSRLW/PSRLD/PSRLQ;Shift Packed Data Right Logical
+intelref_nz.pdf;259;PSUBB/PSUBW/PSUBD;Subtract Packed Integers
+intelref_nz.pdf;263;PSUBQ;Subtract Packed Quadword Integers
+intelref_nz.pdf;265;PSUBSB/PSUBSW;Subtract Packed Signed Integers with Signed Saturation
+intelref_nz.pdf;268;PSUBUSB/PSUBUSW;Subtract Packed Unsigned Integers with Unsigned Saturation
+intelref_nz.pdf;271;PTEST;Logical Compare
+intelref_nz.pdf;275;PUNPCKHBW/PUNPCKHWD/PUNPCKHDQ/PUNPCKHQDQ;Unpack High Data
+intelref_nz.pdf;281;PUNPCKLBW/PUNPCKLWD/PUNPCKLDQ/PUNPCKLQDQ;Unpack Low Data
+intelref_nz.pdf;286;PUSH;Push Word, Doubleword or Quadword Onto the Stack
+intelref_nz.pdf;291;PUSHA/PUSHAD;Push All General-Purpose Registers
+intelref_nz.pdf;294;PUSHF/PUSHFD;Push EFLAGS Register onto the Stack
+intelref_nz.pdf;297;PXOR;Logical Exclusive OR
+intelref_nz.pdf;299;RCL/RCR/ROL/ROR;Rotate
+intelref_nz.pdf;307;RCPPS;Compute Reciprocals of Packed Single-Precision Floating-Point Values
+intelref_nz.pdf;310;RCPSS;Compute Reciprocal of Scalar Single-Precision Floating-Point Values
+intelref_nz.pdf;312;RDMSR;Read from Model Specific Register
+intelref_nz.pdf;314;RDPMC;Read Performance-Monitoring Counters
+intelref_nz.pdf;320;RDTSC;Read Time-Stamp Counter
+intelref_nz.pdf;322;RDTSCP;Read Time-Stamp Counter and Processor ID
+intelref_nz.pdf;324;REP/REPE/REPZ/REPNE/REPNZ;Repeat String Operation Prefix
+intelref_nz.pdf;329;RET;Return from Procedure
+intelref_nz.pdf;341;ROUNDPD;Round Packed Double Precision Floating-Point Values
+intelref_nz.pdf;344;ROUNDPS;Round Packed Single Precision Floating-Point Values
+intelref_nz.pdf;347;ROUNDSD;Round Scalar Double Precision Floating-Point Values
+intelref_nz.pdf;349;ROUNDSS;Round Scalar Single Precision Floating-Point Values
+intelref_nz.pdf;351;RSM;Resume from System Management Mode
+intelref_nz.pdf;353;RSQRTPS;Compute Reciprocals of Square Roots of Packed Single-Precision Floating-Point Values
+intelref_nz.pdf;356;RSQRTSS;Compute Reciprocal of Square Root of Scalar Single-Precision Floating-Point Value
+intelref_nz.pdf;358;SAHF;Store AH into Flags
+intelref_nz.pdf;360;SAL/SAR/SHL/SHR;Shift
+intelref_nz.pdf;368;SBB;Integer Subtraction with Borrow
+intelref_nz.pdf;372;SCAS/SCASB/SCASW/SCASD;Scan String
+intelref_nz.pdf;377;SETcc;Set Byte on Condition
+intelref_nz.pdf;382;SFENCE;Store Fence
+intelref_nz.pdf;383;SGDT;Store Global Descriptor Table Register
+intelref_nz.pdf;386;SHLD;Double Precision Shift Left
+intelref_nz.pdf;390;SHRD;Double Precision Shift Right
+intelref_nz.pdf;394;SHUFPD;Shuffle Packed Double-Precision Floating-Point Values
+intelref_nz.pdf;397;SHUFPS;Shuffle Packed Single-Precision Floating-Point Values
+intelref_nz.pdf;401;SIDT;Store Interrupt Descriptor Table Register
+intelref_nz.pdf;404;SLDT;Store Local Descriptor Table Register
+intelref_nz.pdf;406;SMSW;Store Machine Status Word
+intelref_nz.pdf;409;SQRTPD;Compute Square Roots of Packed Double-Precision Floating-Point Values
+intelref_nz.pdf;411;SQRTPS;Compute Square Roots of Packed Single-Precision Floating-Point Values
+intelref_nz.pdf;414;SQRTSD;Compute Square Root of Scalar Double-Precision Floating-Point Value
+intelref_nz.pdf;416;SQRTSS;Compute Square Root of Scalar Single-Precision Floating-Point Value
+intelref_nz.pdf;418;VSTMXCSR;Store MXCSR Register State
+intelref_nz.pdf;419;STC;Set Carry Flag
+intelref_nz.pdf;420;STD;Set Direction Flag
+intelref_nz.pdf;421;STI;Set Interrupt Flag
+intelref_nz.pdf;424;STMXCSR;Store MXCSR Register State
+intelref_nz.pdf;426;STOS/STOSB/STOSW/STOSD/STOSQ;Store String
+intelref_nz.pdf;431;STR;Store Task Register
+intelref_nz.pdf;433;SUB;Subtract
+intelref_nz.pdf;436;SUBPD;Subtract Packed Double-Precision Floating-Point Values
+intelref_nz.pdf;438;SUBPS;Subtract Packed Single-Precision Floating-Point Values
+intelref_nz.pdf;441;SUBSD;Subtract Scalar Double-Precision Floating-Point Values
+intelref_nz.pdf;443;SUBSS;Subtract Scalar Single-Precision Floating-Point Values
+intelref_nz.pdf;445;SWAPGS;Swap GS Base Register
+intelref_nz.pdf;447;SYSCALL;Fast System Call
+intelref_nz.pdf;449;SYSENTER;Fast System Call
+intelref_nz.pdf;454;SYSEXIT;Fast Return from Fast System Call
+intelref_nz.pdf;458;SYSRET;Return From Fast System Call
+intelref_nz.pdf;460;TEST;Logical Compare
+intelref_nz.pdf;463;VTESTPD/VTESTPS;Packed Bit Test
+intelref_nz.pdf;464;UCOMISD;Unordered Compare Scalar Double-Precision Floating-Point Values and Set EFLAGS
+intelref_nz.pdf;466;UCOMISS;Unordered Compare Scalar Single-Precision Floating-Point Values and Set EFLAGS
+intelref_nz.pdf;468;UD2;Undefined Instruction
+intelref_nz.pdf;469;UNPCKHPD;Unpack and Interleave High Packed Double-Precision Floating-Point Values
+intelref_nz.pdf;475;UNPCKLPD;Unpack and Interleave Low Packed Double-Precision Floating-Point Values
+intelref_nz.pdf;481;VERR/VERW;Verify a Segment for Reading or Writing
+intelref_nz.pdf;484;WAIT/FWAIT;Wait
+intelref_nz.pdf;486;WBINVD;Write Back and Invalidate Cache
+intelref_nz.pdf;488;WRMSR;Write to Model Specific Register
+intelref_nz.pdf;490;XADD;Exchange and Add
+intelref_nz.pdf;493;XCHG;Exchange Register/Memory with Register
+intelref_nz.pdf;496;XGETBV;Get Value of Extended Control Register
+intelref_nz.pdf;498;XLAT/XLATB;Table Look-up Translation
+intelref_nz.pdf;501;XOR;Logical Exclusive OR
+intelref_nz.pdf;504;XORPD;Bitwise Logical XOR for Double-Precision Floating-Point Values
+intelref_nz.pdf;506;XORPS;Bitwise Logical XOR for Single-Precision Floating-Point Values
+intelref_nz.pdf;508;XRSTOR;Restore Processor Extended States
+intelref_nz.pdf;514;XSAVE;Save Processor Extended States
+intelref_nz.pdf;518;XSAVEOPT;Save Processor Extended States Optimized
+intelref_nz.pdf;522;XSETBV;Set Extended Control Register
+intelref_nz.pdf;524;VZEROALL;Zero All YMM Registers
+intelref_nz.pdf;526;VZEROUPPER;Zero Upper Bits of YMM Registers
