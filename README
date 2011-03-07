@@ -12,3 +12,8 @@ Setup:
 
 Usage: intel-ref.py intel-ref.txt <instruction>
 
+The included index requires the exact intel document versions with the
+following MD5 checksums as it is based on page numbers:
+
+MD5 (intelref_am.pdf) = e0587665594448f298c29a42ceff544a
+MD5 (intelref_nz.pdf) = 3a42f6cda86e000a14229c450e66f49e
