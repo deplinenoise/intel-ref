@@ -43,7 +43,7 @@ intelref_am.pdf;210;CLFLUSH;Flush Cache Line
 intelref_am.pdf;212;CLI;Clear Interrupt Flag
 intelref_am.pdf;215;CLTS;Clear Task-Switched Flag in CR0
 intelref_am.pdf;217;CMC;Complement Carry Flag
-intelref_am.pdf;218;CMOVcc;Conditional Move
+intelref_am.pdf;218;CMOVcc/CMOVA/CMOVAE/CMOVB/CMOVBE/CMOVC/CMOVE/CMOVG/CMOVGE/CMOVL/CMOVLE/CMOVNA/CMOVNAE/CMOVNB/CMOVNBE/CMOVNC/CMOVNE/CMOVNG/CMOVNGE/CMOVNL/CMOVNLE/CMOVNO/CMOVNP/CMOVNS/CMOVNZ/CMOVO/CMOVP/CMOVPE/CMOVPO/CMOVS/CMOVZ;Conditional Move
 intelref_am.pdf;225;CMP;Compare Two Operands
 intelref_am.pdf;228;CMPPD;Compare Packed Double-Precision Floating-Point Values
 intelref_am.pdf;238;CMPPS;Compare Packed Single-Precision Floating-Point Values
@@ -100,7 +100,7 @@ intelref_am.pdf;414;FBLD;Load Binary Coded Decimal
 intelref_am.pdf;416;FBSTP;Store BCD Integer and Pop
 intelref_am.pdf;419;FCHS;Change Sign
 intelref_am.pdf;421;FCLEX/FNCLEX;Clear Exceptions
-intelref_am.pdf;423;FCMOVcc;Floating-Point Conditional Move
+intelref_am.pdf;423;FCMOVcc/FCMOVB/FCMOVE/FCMOVBE/FCMOVU/FCMOVNB/FCMOVNE/FCMOVNBE/FCMOVNU;Floating-Point Conditional Move
 intelref_am.pdf;429;FCOMI/FCOMIP/FUCOMI/FUCOMIP;Compare Floating Point Values and Set EFLAGS
 intelref_am.pdf;432;FCOS;Cosine
 intelref_am.pdf;434;FDECSTP;Decrement Stack-Top Pointer
@@ -161,7 +161,7 @@ intelref_am.pdf;596;INT/INTO;Call to Interrupt Procedure
 intelref_am.pdf;612;INVD;Invalidate Internal Caches
 intelref_am.pdf;614;INVLPG;Invalidate TLB Entry
 intelref_am.pdf;616;IRET/IRETD;Interrupt Return
-intelref_am.pdf;627;Jcc;Jump if Condition Is Met
+intelref_am.pdf;627;Jcc/JA/JAE/JB/JBE/JC/JCXZ/JE/JECXZ/JG/JGE/JL/JLE/JNA/JNAE/JNB/JNBE/JNC/JNE/JNG/JNGE/JNL/JNLE/JNO/JNP/JNS/JNZ/JO/JP/JPE/JPO/JRCXZ/JS/JZ;Jump if Condition Is Met
 intelref_am.pdf;635;JMP;Jump
 intelref_am.pdf;646;LAHF;Load Status Flags into AH Register
 intelref_am.pdf;648;LAR;Load Access Rights Byte
@@ -176,7 +176,7 @@ intelref_am.pdf;672;LLDT;Load Local Descriptor Table Register
 intelref_am.pdf;675;LMSW;Load Machine Status Word
 intelref_am.pdf;677;LOCK;Assert LOCK# Signal Prefix
 intelref_am.pdf;679;LODS/LODSB/LODSW/LODSD/LODSQ;Load String
-intelref_am.pdf;683;LOOP/LOOPcc;Loop According to ECX Counter
+intelref_am.pdf;683;LOOP/LOOPcc/LOOPE/LOOPNE;Loop According to ECX Counter
 intelref_am.pdf;686;LSL;Load Segment Limit
 intelref_am.pdf;690;LTR;Load Task Register
 intelref_am.pdf;693;MASKMOVDQU;Store Selected Bytes of Double Quadword
@@ -348,7 +348,7 @@ intelref_nz.pdf;358;SAHF;Store AH into Flags
 intelref_nz.pdf;360;SAL/SAR/SHL/SHR;Shift
 intelref_nz.pdf;368;SBB;Integer Subtraction with Borrow
 intelref_nz.pdf;372;SCAS/SCASB/SCASW/SCASD;Scan String
-intelref_nz.pdf;377;SETcc;Set Byte on Condition
+intelref_nz.pdf;377;SETcc/SETA/SETAE/SETB/SETBE/SETC/SETE/SETG/SETGE/SETL/SETLE/SETNA/SETNAE/SETNB/SETNBE/SETNC/SETNE/SETNG/SETNGE/SETNL/SETNLE/SETNO/SETNP/SETNS/SETNZ/SETO/SETP/SETPE/SETPO/SETS/SETZ;Set Byte on Condition
 intelref_nz.pdf;382;SFENCE;Store Fence
 intelref_nz.pdf;383;SGDT;Store Global Descriptor Table Register
 intelref_nz.pdf;386;SHLD;Double Precision Shift Left
