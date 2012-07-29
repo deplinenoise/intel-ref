@@ -44,7 +44,7 @@ INTELREF = \
 \#!/bin/bash\n\
 cd $(DESTDIR)/share/intel-ref\n\
 opcode=\`echo \$$1 | tr [a-z] [A-Z]\`\n\
-pdf2txt -p \`awk -F';' /\$$opcode/'{print \$$2+1,\$$1}' intel-ref.txt\`\n
+pdf2txt -p \`awk -F';' '\$$3~'/\$$opcode/'{print \$$2+1,\$$1}' IGNORECASE=1 intel-ref.txt\`\n
 #
 
 install: intel-ref.txt $(PDFS)
