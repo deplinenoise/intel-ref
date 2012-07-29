@@ -17,3 +17,14 @@ following MD5 checksums as it is based on page numbers:
 
 MD5 (intelref_am.pdf) = e0587665594448f298c29a42ceff544a
 MD5 (intelref_nz.pdf) = 3a42f6cda86e000a14229c450e66f49e
+
+
+Rebuild/Install: 
+
+The included Makefile will regenerate the intel-ref.txt from intelref_*.pdf, and
+optionally install the files and the intel-ref script to DESTDIR. You'll need to
+have the pdf2txt and xml2 packages installed.
+
+$ DESTDIR=~/opt make install
+$ ~/opt/bin/intel-ref AAA
+    
