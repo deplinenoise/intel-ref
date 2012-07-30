@@ -1,0 +1,37 @@
+#!/bin/bash
+[ -e "intel-ref.txt" ] && refdir="." || refdir=$(cd "`dirname $0`"/../share/intel-ref && pwd)
+
+if [ "$1" = "" -o "$1" = "--help" ]; then
+    echo "$0 [-e] opcode"
+    echo "  Searches $refdir/intel-ref.txt for the given opcode"
+    echo "  and either calls pdf2txt to dump the pages out or"
+    echo "  prints 'file.pdf firstpage lastpage' if -e is specified."
+    exit 1
+fi >&2
+
+if [ "$1" = "-e" ]; then
+    justecho=1
+    shift
+fi
+
+do_findop () {
+    grep -A 1 -i "$1" $refdir/intel-ref.txt | awk -F';' '{printf("%s %s ",$1,$2)}' | awk '{print $1,$2+1,$4}'
+    if [ ${PIPESTATUS[0]} -ne 0 ]; then
+        echo "do_findop: $1 not found" >&2
+        return 1
+    fi
+    return 0
+}
+
+tmpf=$(mktemp /tmp/intel-ref.XXXXX)
+trap "rm -f $tmpf" EXIT
+do_findop $1 > $tmpf || \
+    exit 2
+
+read fn first last < $tmpf
+if [ "$justecho" = "1" ]; then 
+    echo $refdir/$fn $first $last
+else
+    pdf2txt -p `seq -s, $first $last` $refdir/$fn
+fi
+

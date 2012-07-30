@@ -40,17 +40,9 @@ cleaninstall:
 	rm -rf $(DESTDIR)/share/intel-ref
 	rm -f $(DESTDIR)/bin/intel-ref
 
-INTELREF = \
-\#!/bin/bash\n\
-cd $(DESTDIR)/share/intel-ref\n\
-opcode=\`echo \$$1 | tr [a-z] [A-Z]\`\n\
-pdf2txt -p \`awk -F';' '\$$3~'/\$$opcode/'{print \$$2+1,\$$1}' IGNORECASE=1 intel-ref.txt\`\n
-#
-
 install: intel-ref.txt $(PDFS)
 	mkdir -p $(DESTDIR)/share/intel-ref
-	cp -a $^ $(DESTDIR)/share/intel-ref
 	mkdir -p $(DESTDIR)/bin
-	echo "$(INTELREF)" | sed -e 's/^[ ]//' > $(DESTDIR)/bin/intel-ref
-	chmod +x $(DESTDIR)/bin/intel-ref
+	install -m 0644 -t $(DESTDIR)/share/intel-ref $^
+	install -m 0755 -t $(DESTDIR)/bin intel-ref
 
